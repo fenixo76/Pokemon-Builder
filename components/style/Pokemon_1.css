@@ -13,8 +13,9 @@
 .ImageP_01 {
     z-index: 1;
     position: absolute;
-    height: 130px;
-    margin-top: 60px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
     filter: drop-shadow(4px 4px 2px #00000049);
 }
 

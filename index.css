@@ -36,10 +36,15 @@ p {
     background: rgb(78, 78, 78);
     border-radius: 0px 7px 7px 0px;
     box-shadow: 0px 2px 2px #00000075;
-}
+    background-image: url("./assets/images/F-P.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75% 75%;
+  }
+  
 
 #IPKM01 {
-    height: 40px;
+    height: 60px;
 }
 
 #Button01 {

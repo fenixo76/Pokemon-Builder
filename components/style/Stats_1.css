@@ -32,7 +32,7 @@ ul {
     display: block;
     position: relative;   
     background: rgb(192, 192, 192);
-    box-shadow: 1px 1px 5px #000000;
+    filter: drop-shadow(4px 4px 5px #00000049);
     color: rgb(0, 0, 0);
     border-radius: 5px;
     margin: 4px;
