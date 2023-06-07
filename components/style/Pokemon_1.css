@@ -1,0 +1,147 @@
+.Pokemon_1 {
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.Image_Pokemon_01 {
+    position: absolute;
+    margin-left: 0px;
+}
+
+.ImageP_01 {
+    z-index: 1;
+    position: absolute;
+    height: 130px;
+    margin-top: 60px;
+    filter: drop-shadow(4px 4px 2px #00000049);
+}
+
+.ImageF_01 {
+    z-index: 0;
+    position: absolute;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.Image_Objet_01 {
+    z-index: 2;
+    position: absolute;
+    height: 25px;
+    margin-top: 180px;
+    margin-left: 120px;
+    filter: drop-shadow(2px 2px 2px #00000049);
+}
+
+
+#Type_01 {
+    display: flex;
+    height: 30px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 5px;
+    top: 35px;
+    left: 180px;
+}
+
+.input-container01 {
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#Recherche01,#Recherche02,#Recherche03,#Recherche04,#Recherche05,#Recherche06,#Recherche07 {
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    padding: 5px;
+    filter: drop-shadow(0px 0px 5px #00000049);
+    width: 70%;
+    margin-left: -30px;
+}
+
+.Recherche01_01 {
+    display: block;
+    position: relative;
+    font-size: 12px;
+}
+
+.Recherche02_02 {
+    /* Objet */
+    display: block;
+    position: relative;
+    left: 130px;
+    top: -36px;
+    font-size: 12px;
+}
+
+.Recherche03_03 {
+    /* Attaque 1 */
+    margin-top: 140px;
+    font-size: 12px;
+}
+
+.Recherche04_04 {
+    /* Attaque 2 */
+    display: block;
+    position: relative;
+    left: 130px;
+    top: -36px;
+    font-size: 12px;
+}
+
+.Recherche05_05 {
+    /* Attaque 3 */
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.Recherche06_06 {
+    /* Attaque 4 */
+    display: block;
+    position: relative;
+    left: 130px;
+    top: -36px;
+    font-size: 12px;
+}
+
+.Recherche07_07 {
+    /* Nature */
+    display: block;
+    position: relative;
+    left: 0px;
+    font-size: 12px;
+}
+
+.Tableau_Talent01{
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    background-color: rgb(245, 245, 245);
+    width: 100px;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 330px;
+    margin-left: 110px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Talens01_01 {
+    display: block;
+    position: absolute;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+.Talen01_01 {
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 35px;
+}

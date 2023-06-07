@@ -1,0 +1,92 @@
+p {
+    font-family: sans-serif;
+}
+
+.Logo {
+    display: flex;
+    position: relative;
+    height: 50px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.j002 {
+    display: block;
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    filter: drop-shadow(4px 4px 5px #00000049);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    zoom: 1; /* A Modiffier Pour Petit Smartphone 0.9 */
+}
+
+#PKM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    background: rgb(78, 78, 78);
+    border-radius: 0px 7px 7px 0px;
+    box-shadow: 0px 2px 2px #00000075;
+}
+
+#IPKM01 {
+    height: 40px;
+}
+
+#Button01 {
+    background: none;
+    border: none;
+}
+
+.test{
+    z-index: 999;
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 10px;
+    background: none;
+    border: none;
+}
+
+.test2 {
+    display: block;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -220px;
+    z-index: 998;
+    height: 99%;
+    width: 200px;
+    border-radius: 0px 10px 10px 0px ;
+    background: rgb(235, 235, 235);
+    transition: margin-left 0.1s ease;
+    box-shadow: 0px 2px 2px #00000075;
+}
+
+#Menu{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+  }
+
+#colorG{
+    color: rgb(235, 235, 235);
+}
+

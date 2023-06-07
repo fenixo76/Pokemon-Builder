@@ -1,0 +1,72 @@
+.Stats_Button01 {
+    z-index: 1;
+    display: block;
+    position: relative;
+    border: none;
+    padding: 10px;
+    border-radius: 100px;
+    background: rgb(0, 174, 255);
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px;
+}
+
+.Tableau_Stats01 {
+    z-index: 0;
+    display: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    filter: drop-shadow(4px 4px 5px #00000049);
+    background: rgb(255, 255, 255);
+    width: 310px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    display: block;
+    position: relative;   
+    background: rgb(192, 192, 192);
+    box-shadow: 1px 1px 5px #000000;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 4px;
+    height: 0;
+    overflow: hidden;  
+    transition: .4s height;
+}
+
+.Table_Stats {
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.es, .i01 {
+    width: 30%;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+tr {
+    font-family: sans-serif;
+}
+
+.h01,.a01,.d01, .as01,.ds01,.v01 {
+    text-align: center;
+}
+
+td {
+    padding-top: 5px;
+}
+
+
