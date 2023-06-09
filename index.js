@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Ajoutez ici votre code pour gérer les événements dans Stats.html
         const Stats_Button = document.querySelector(".Stats_Button01");
-        const Tableau_Stats = document.getElementById("j002");
+        const Tableau_Stats = document.getElementById("j003");
   
         Stats_Button.addEventListener("click", function(){
             if(Tableau_Stats.style.display === "block"){
@@ -38,25 +38,25 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Une erreur s\'est produite : ', error);
       });
 
-        const test = document.querySelector(".test");
-        const test2 = document.querySelector(".test2");
+        const barreMenu = document.querySelector(".Barre_Menu");
+        const textMenu = document.querySelector(".Text_Menu");
         
-        test.addEventListener("click", function(){
-            if (test2.style.marginLeft === "-10px"){
-                test2.style.marginLeft = "-220px";
+        barreMenu.addEventListener("click", function(){
+            if (textMenu.style.marginLeft === "-10px"){
+                textMenu.style.marginLeft = "-220px";
             } else {
-                test2.style.marginLeft = "-10px";
+                textMenu.style.marginLeft = "-10px";
             }
         });
 
-        test2.addEventListener("click", function(event) {
+        textMenu.addEventListener("click", function(event) {
             event.stopPropagation(); // Arrête la propagation de l'événement
         });
         
         // Écouteur d'événement click sur l'objet document
         document.addEventListener("click", function(event) {
-            if (!test.contains(event.target) && test2.style.marginLeft === "-10px") {
-                test2.style.marginLeft = "-220px";
+            if (!barreMenu.contains(event.target) && textMenu.style.marginLeft === "-10px") {
+                textMenu.style.marginLeft = "-220px";
             }
         });
 

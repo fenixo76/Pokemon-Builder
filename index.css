@@ -12,7 +12,9 @@ p {
 }
 
 .j002 {
+    z-index: 997;
     display: block;
+    position: relative;
     margin-top: 10px;
     background: rgb(255, 255, 255);
     filter: drop-shadow(4px 4px 5px #00000049);
@@ -52,7 +54,7 @@ p {
     border: none;
 }
 
-.test{
+.Barre_Menu{
     z-index: 999;
     display: block;
     position: absolute;
@@ -62,7 +64,7 @@ p {
     border: none;
 }
 
-.test2 {
+.Text_Menu {
     display: block;
     position: absolute;
     margin-top: -60px;
@@ -71,7 +73,7 @@ p {
     height: 99%;
     width: 200px;
     border-radius: 0px 10px 10px 0px ;
-    background: rgb(235, 235, 235);
+    background: rgb(254, 254, 254);
     transition: margin-left 0.1s ease;
     box-shadow: 0px 2px 2px #00000075;
 }

@@ -1,6 +1,6 @@
 .Stats_Button01 {
-    z-index: 800;
-    display: block;
+    z-index: 900;
+    display: flex;
     position: relative;
     border: none;
     padding: 10px;
@@ -8,26 +8,25 @@
     background: rgb(0, 174, 255);
     color: white;
     font-family: sans-serif;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -16px;
+    margin-top: 410px;
 }
 
+
 .Tableau_Stats01 {
-    z-index: 0;
+    z-index: 899;
     display: none;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -15px;
+    margin-top: 5px;
     filter: drop-shadow(4px 4px 5px #00000049);
     background: rgb(255, 255, 255);
     width: 310px;
     padding: 10px;
     border-radius: 5px;
 }
-
 
 .Table_Stats {
     margin-top: 20px;
@@ -57,4 +56,7 @@ td {
     padding-top: 5px;
 }
 
+#imgT{
+    height: 10px;
+}
 
