@@ -53,69 +53,6 @@
     flex-direction: column;
 }
 
-
-#Recherche01,#Recherche02,#Recherche03,#Recherche04,#Recherche05,#Recherche06,#Recherche07 {
-    border: solid 2px rgba(0, 0, 0, 0);
-    border-radius: 100px;
-    padding: 5px;
-    filter: drop-shadow(0px 0px 5px #00000049);
-    width: 70%;
-    margin-left: -30px;
-}
-
-.Recherche01_01 {
-    display: block;
-    position: relative;
-    font-size: 12px;
-}
-
-.Recherche02_02 {
-    /* Objet */
-    display: block;
-    position: relative;
-    left: 130px;
-    top: -28px;
-    font-size: 12px;
-}
-
-.Recherche03_03 {
-    /* Attaque 1 */
-    margin-top: 150px;
-    font-size: 12px;
-}
-
-.Recherche04_04 {
-    /* Attaque 2 */
-    display: block;
-    position: relative;
-    left: 130px;
-    top: -36px;
-    font-size: 12px;
-}
-
-.Recherche05_05 {
-    /* Attaque 3 */
-    margin-top: 0;
-    font-size: 12px;
-}
-
-.Recherche06_06 {
-    /* Attaque 4 */
-    display: block;
-    position: relative;
-    left: 130px;
-    top: -36px;
-    font-size: 12px;
-}
-
-.Recherche07_07 {
-    /* Nature */
-    display: block;
-    position: relative;
-    left: 0px;
-    font-size: 12px;
-}
-
 .Tableau_Talent01{
     display: flex;
     position: absolute;
@@ -147,32 +84,213 @@
     margin-top: 35px;
 }
 
-.drop01_01{
-    z-index: 900;
-    width: 100px;
-    display: block;
-    position:absolute;
-    margin-left: -30px;
-    background: white;
-}
+ /* Affichage de l'info-bulle lorsqu'elle est active */
+  .infoBulle01 {
+    visibility: hidden;
+    width: 200px;
+    background: #333333cc;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: 50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top: 150px;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+  
+  .infoBulle01.active  {
+    visibility: visible;
+    opacity: 1;
+  }
 
-.IMP01{
-    display: flex;
-    position: relative;
-    margin-left: -35px;
-    height: 45px;
-    margin-bottom: 4px;
-    margin-top: 4px;
+  /* recherche pokemon*/
+
+ul{
+    display: block;
+    position: relative;   
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px #00000049;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 4px;
+    height: 0;
+    transition: .4s height;
+    list-style: none;
+    font-family: sans-serif;
+    overflow: hidden;
+    transition: .4s height;
 }
 
 li{
-    list-style-type: none;
+    overflow: hidden;
     display: flex;
     position: relative;
-    margin-top: -25px;
-    top: -8px;
-    margin-left: 15px;
     font-family: sans-serif;
+    margin-left: -35px;
+    padding: 5px;
     font-size: 12px;
 }
+
+#C01_01{
+   display: block;
+   position: absolute;
+   margin-left: -25px;
+   z-index: 907;
+}
+
+#Recherche01{
+    width: 100px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    padding: 5px;
+    filter: drop-shadow(0px 0px 5px #00000049);
+    font-size: 12px;
+}
+
+.drop01_01 {    
+    display: block; 
+    border-radius: 5px;
+    padding: 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.drop01_01::-webkit-scrollbar {
+    width: 8px; /* Largeur de la barre de défilement pour Chrome/Safari */
+}
+
+.drop01_01::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Couleur de la poignée de la barre de défilement pour Chrome/Safari */
+}
+
+.drop01_01::-webkit-scrollbar-track {
+    background-color: transparent; /* Couleur de la piste de la barre de défilement pour Chrome/Safari */
+}
+
+.pair {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Espacement entre les paires */
+}
+
+.IMP01  {
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+
+
+.LI01 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+
+
+#C01_02{
+    display: block;
+    position: absolute;
+    margin-left: 110px; 
+    z-index: 906;
+ }
+ 
+ #Recherche02{
+    width: 100px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    padding: 5px;
+    filter: drop-shadow(0px 0px 5px #00000049);
+    font-size: 12px;
+ }
+
+ #C01_03{
+    display: block;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 210px;
+ }
+
+ #Recherche03{
+    width: 100px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    padding: 5px;
+    filter: drop-shadow(0px 0px 5px #00000049);
+    font-size: 12px;
+ }
+
+ #C01_04{
+    display: block;
+    position: absolute;
+    margin-left: 110px; 
+    margin-top: 210px;
+ }
+ 
+ #Recherche04{
+    width: 100px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    padding: 5px;
+    filter: drop-shadow(0px 0px 5px #00000049);
+    font-size: 12px;
+ }
+
+ #C01_05{
+    display: block;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 280px;
+ }
+
+ #Recherche05{
+    width: 100px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    padding: 5px;
+    filter: drop-shadow(0px 0px 5px #00000049);
+    font-size: 12px;
+ }
+
+ #C01_06{
+    display: block;
+    position: absolute;
+    margin-left: 110px; 
+    margin-top: 280px;
+ }
+ 
+ #Recherche06{
+    width: 100px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    padding: 5px;
+    filter: drop-shadow(0px 0px 5px #00000049);
+    font-size: 12px;
+ }
+
+ #C01_07{
+    display: block;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 350px;
+ }
+
+ #Recherche07{
+    width: 100px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    padding: 5px;
+    filter: drop-shadow(0px 0px 5px #00000049);
+    font-size: 12px;
+ }
 
