@@ -97,3 +97,18 @@ a:visited {
     color: rgb(235, 235, 235);
 }
 
+.Stats_Button01 {
+    z-index: 900;
+    display: flex;
+    position: absolute;
+    border: none;
+    padding: 10px;
+    border-radius: 100px;
+    background: rgb(0, 174, 255);
+    color: white;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 420px;
+    left: 100px;
+}

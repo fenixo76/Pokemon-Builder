@@ -364,11 +364,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
                  
-                        I02.src = "./components/js/img/mal.png"
-                        I03.src = "./components/js/img/bon.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/mal.png"
+                        I03.src = "../assets/images/bon.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Bizarre") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -382,11 +382,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Brave") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -400,11 +400,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${Math.floor((vitesse + vitesse + 31 + 5) * 0.9)}`
 
-                        I02.src = "./components/js/img/bon.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/mal.png"
+                        I02.src = "../assets/images/bon.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/mal.png"
                     } else if (Nature === "Calme") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -418,11 +418,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${Math.floor((defspe + defspe + 31 + 5 + 63) * 1.1)}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/mal.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/bon.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/mal.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/bon.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Discret") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -436,11 +436,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${Math.floor((vitesse + vitesse + 31 + 5) * 0.9)}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/bon.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/mal.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/bon.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/mal.png"
                     } else if (Nature === "Docile") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -454,11 +454,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Doux") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -472,11 +472,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/mal.png"
-                        I04.src = "./components/js/img/bon.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/mal.png"
+                        I04.src = "../assets/images/bon.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Foufou") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -490,11 +490,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${Math.floor((defspe + defspe + 31 + 5) * 0.9)}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/bon.png"
-                        I05.src = "./components/js/img/mal.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/bon.png"
+                        I05.src = "../assets/images/mal.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Gentil") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -508,11 +508,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${Math.floor((defspe + defspe + 31 + 5 + 63) * 1.1)}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/mal.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/bon.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/mal.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/bon.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Hardi") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -526,11 +526,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Jovial") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -544,11 +544,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${Math.floor((vitesse + vitesse + 31 + 5 + 63) * 1.1)}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/mal.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/bon.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/mal.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/bon.png"
                     } else if (Nature === "Lâche") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -562,11 +562,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${Math.floor((defspe + defspe + 31 + 5) * 0.9)}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/bon.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/mal.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/bon.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/mal.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Malin") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -580,11 +580,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/bon.png"
-                        I04.src = "./components/js/img/mal.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/bon.png"
+                        I04.src = "../assets/images/mal.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Malpoli") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -598,11 +598,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${Math.floor((defspe + defspe + 31 + 5 + 63) * 1.1)}`
                         VITESSE01.innerHTML = ` ${Math.floor((vitesse + vitesse + 31 + 5) * 0.9)}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/bon.png"
-                        I06.src = "./components/js/img/mal.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/bon.png"
+                        I06.src = "../assets/images/mal.png"
                     } else if (Nature === "Mauvais") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -616,11 +616,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${Math.floor((defspe + defspe + 31 + 5) * 0.9)}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/bon.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/mal.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/bon.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/mal.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Modeste") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -634,11 +634,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/mal.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/bon.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/mal.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/bon.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Naif") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -652,11 +652,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${Math.floor((defspe + defspe + 31 + 5) * 0.9)}`
                         VITESSE01.innerHTML = ` ${Math.floor((vitesse + vitesse + 31 + 5 + 63) * 1.1)}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/mal.png"
-                        I06.src = "./components/js/img/bon.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/mal.png"
+                        I06.src = "../assets/images/bon.png"
                     } else if (Nature === "Pressé") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -670,11 +670,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${Math.floor((vitesse + vitesse + 31 + 5 + 63) * 1.1)}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/mal.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/bon.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/mal.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/bon.png"
                     } else if (Nature === "Prudent") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -688,11 +688,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${Math.floor((defspe + defspe + 31 + 5 + 63) * 1.1)}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/mal.png"
-                        I05.src = "./components/js/img/bon.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/mal.png"
+                        I05.src = "../assets/images/bon.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Pudique") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -706,11 +706,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Relax") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -724,11 +724,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${Math.floor((vitesse + vitesse + 31 + 5) * 0.9)}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/bon.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/mal.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/bon.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/mal.png"
                     } else if (Nature === "Rigide") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -742,11 +742,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/bon.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/mal.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/bon.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/mal.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Sérieux") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -760,11 +760,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/nule.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/nule.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Solo") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -778,11 +778,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${vitesse + vitesse + 31 + 5 + 63}`
 
-                        I02.src = "./components/js/img/bon.png"
-                        I03.src = "./components/js/img/mal.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/nule.png"
+                        I02.src = "../assets/images/bon.png"
+                        I03.src = "../assets/images/mal.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/nule.png"
                     } else if (Nature === "Timide") {
                         const attaque = pokemon.Atk
                         const defence = pokemon.Def
@@ -796,11 +796,11 @@ fetch('./components/json/Pokemon_info.json')
                         DEF_SPE01.innerHTML = ` ${defspe + defspe + 31 + 5 + 63}`
                         VITESSE01.innerHTML = ` ${Math.floor((vitesse + vitesse + 31 + 5 + 63) * 1.1)}`
 
-                        I02.src = "./components/js/img/mal.png"
-                        I03.src = "./components/js/img/nule.png"
-                        I04.src = "./components/js/img/nule.png"
-                        I05.src = "./components/js/img/nule.png"
-                        I06.src = "./components/js/img/bon.png"
+                        I02.src = "../assets/images/mal.png"
+                        I03.src = "../assets/images/nule.png"
+                        I04.src = "../assets/images/nule.png"
+                        I05.src = "../assets/images/nule.png"
+                        I06.src = "../assets/images/bon.png"
                     }
                 }
             }

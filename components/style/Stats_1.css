@@ -1,21 +1,4 @@
-.Stats_Button01 {
-    z-index: 900;
-    display: flex;
-    position: relative;
-    border: none;
-    padding: 10px;
-    border-radius: 100px;
-    background: rgb(0, 174, 255);
-    color: white;
-    font-family: sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 410px;
-}
-
-
 .Tableau_Stats01 {
-    z-index: 899;
     display: none;
     position: relative;
     margin-left: auto;
@@ -27,6 +10,7 @@
     padding: 10px;
     border-radius: 5px;
 }
+
 
 .Table_Stats {
     margin-top: 20px;
